@@ -1,0 +1,330 @@
+html, body {
+	height: 100%
+	width:100%;
+	color:#777777;
+	background-color: #ecebeb;
+	font-family: "Arial", "Helvetica Neue", "Helvetica", sans-serif;
+}
+
+body {
+	background-image: url("../images/cork-wallet.png");
+	background-repeat: repeat;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+	}
+* html .clearfix             { zoom: 1; } /* IE6 */
+*:first-child+html .clearfix { zoom: 1; } /* IE7 */
+
+* {
+	box-sizing: border-box;
+}
+
+/* Display */
+.pagewrap {
+	width:100%;
+     max-width: 960px;
+     margin: 0 auto;
+     clear:both;
+}
+
+.pagewrap content {
+	min-height: 100%;
+     height:auto !important;
+     height:100%;
+	 margin: 0 auto -76px;
+}
+
+footer, .push {
+	height: 105px;
+	clear:both;
+}
+
+.mainsection {
+	box-sizing: border-box;
+	width:650px;
+	float:left;
+	margin-right: 39px;
+	padding: 25px;
+	margin-bottom: 100px;
+}
+
+.sidebar {
+	box-sizing: border-box;
+	width:100%;
+	max-width:270px;
+	float:right;
+	margin: 0 auto;
+	padding: 25px;
+}
+
+.mainsection, .sidebar {
+	margin-top: 40px;
+	border: 2px solid #cccccc;
+}
+
+nav {
+	padding:32px;
+	clear:both;
+}
+
+#logo {
+	font-size:24px;
+	display:inline;
+	padding:31px;
+	background-color:#4aaaa5;
+	color:#ffffff;
+	font-weight: bold;
+}
+
+.name {
+	display:inline-block;
+}
+
+.topnav, .connect{
+	list-style-type: none;
+	margin:0px;
+	padding:0px;
+	overflow: hidden;
+	display:inline;
+}
+
+ol.topnav li {
+	float:right;
+	padding:10px;
+}
+
+.icon {
+	width:65px;
+	height: 65px;
+}
+
+#stack {
+	width:60px;
+	height:61px;
+}
+
+ol.connect li{
+	display:inline-block;
+}
+
+.topnav li:nth-child(2) {
+	border-left:1.7px solid #cccccc;
+	border-right:1.7px solid #cccccc;
+}
+
+a {
+	text-decoration: none;
+	color:#777777;
+}
+
+#introthree {
+	font-size: 12px;
+	font-weight: bold;
+	color:black;
+}
+
+
+header {
+	width:100%;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+
+}
+
+footer {
+	background-color: #666666;
+	clear:both;
+	text-align: center;
+	border-top: 5px solid #4aaaa5;
+	padding:25px 0px 25px 0px;
+}
+
+
+.heading {
+	color: #4aaaa5;
+	font-family: "Georgia", Times, "Times New Roman", serif;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+section, aside {
+	background-color: #ffffff;
+	border:border: 2px solid #dddddd;
+}
+
+.container {
+	margin:0 auto;
+}
+
+hr {
+	border: 0;
+    height: 2px;
+    background: #dddddd;
+}
+
+.aboutcontent {
+	display: inline-block;
+    float: left;
+    width: 300px;
+    margin-left: 20px;
+   }
+
+#profilepic {
+	float:left;
+	width:250px;
+}
+
+#emergent {
+	margin-top: 5px;
+	width:50px;
+}
+/* FORM on Contact Page */
+
+input, textarea {
+	width:100%;
+}
+
+#submit {
+	border-radius: 5px;
+	width:85px;
+	padding:10px;
+	font-size: 16px;
+	font-weight: bold;
+	display:block;
+	background-color:#4aaaa5;
+	color:#ffffff;
+}
+
+legend{
+	color:#4aaaa5;
+	font-size: 20px;
+	font-style: bold;
+}
+
+.line {
+	border: 0;
+    height: 4px;
+    background: #dddddd;
+
+}
+
+input, textarea {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	border: 1px solid #dddddd;
+}
+
+input[type=text], input[type=email], textarea {
+    height: 35px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+
+#message {
+	height:175px;
+}
+
+/* PORTFOLIO PAGE STYLING */
+.pic_contain {
+	/*position:relative;
+	display:inline-block;
+	margin:0 auto; */
+	width: 274px; 
+    overflow: auto;
+    position: relative;
+    float: left;
+    margin: 20px 0 25px;
+
+}
+
+
+
+.folio {
+	width:200px;
+}
+
+/*.midfolio {
+	margin:0 auto;
+	text-align: center;
+} */
+
+.toplayer {
+	position:absolute;
+	box-sizing: border-box;
+	width:200px;
+	background-color:#4aaaa5;
+	bottom:5px;
+	left:0;
+	padding-top:6px;
+	padding-bottom: 6px;
+	font-size:16px;
+	text-align: center;
+	z-index:2;
+}
+
+.toplayer a {
+	color:white;
+}
+
+
+/* Hover Animation */
+h1:hover #logo:hover {
+	font-weight: bolder;
+	font-size: 30px;
+}
+
+a:hover, a:active {
+	font-weight: bolder;
+	color:orange;
+	font-size: 18px;
+}
+
+#submit:hover, #submit:hover {
+	font-weight: bold;
+	background-color: #225b58;
+	color:orange;
+}
+
+#profilepic:hover {
+	outline: 5px solid #4aaaa5;
+  	
+}
+
+/*Responsive Design, Media Queries*/
+@media (max-width: 980px) and (min-width: 769) {
+  
+  }
+
+ @media (max-width:768px) and (min-width:641px) {
+ 	.mainsection {
+ 		float:none;
+ 		width:95%;
+ 		max-width: 95%;
+ 		margin:10px auto 10px auto;
+
+ 	}
+	.sidebar {
+		float:none;
+		width:95%;
+		max-width: 95%;
+		margin:10px auto 10px auto;
+	}
+ 	
+
+	.aboutcontent {
+		display: inline-block;
+	    float: left;
+	    width: 300px;
+	    margin-left: 20px;
+	   }
+ }
+
+ @media (max-width: 640px)
+ 
