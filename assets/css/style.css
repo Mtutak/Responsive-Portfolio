@@ -154,6 +154,7 @@ footer {
 	font-weight: bold;
 }
 
+
 section, aside {
 	background-color: #ffffff;
 	border:border: 2px solid #dddddd;
@@ -308,6 +309,7 @@ a:hover, a:active {
  		width:95%;
  		max-width: 95%;
  		margin:10px auto 10px auto;
+ 		overflow: hidden;
 
  	}
 	.sidebar {
@@ -319,12 +321,57 @@ a:hover, a:active {
  	
 
 	.aboutcontent {
+		width:100%;
+		max-width: 100%;
 		display: inline-block;
-	    float: left;
-	    width: 300px;
+		float:left;
 	    margin-left: 20px;
+	    margin-top: 10px;
 	   }
  }
 
- @media (max-width: 640px)
+ @media (max-width: 640px) {
+	.mainsection {
+ 		float:none;
+ 		width:95%;
+ 		max-width: 95%;
+ 		margin:10px auto 10px auto;
+ 		overflow: hidden;
+
+ 	}
+	.sidebar {
+		float:none;
+		width:95%;
+		max-width: 95%;
+		margin:10px auto 10px auto;
+	}
+ 	
+ 	#profilepic {
+ 		width:80%;
+ 		max-width: 80%;
+ 		float:none;
+ 		display:block;
+ 		margin:0 auto;
+ 	}
+
+ 	#introthree {
+ 		width:100%;
+ 		text-align: center;
+ 	}
+
+	.aboutcontent {
+		width:100%;
+		max-width: 100%;
+		display: inline-block;
+		float:none;
+	    margin-left: 20px;
+	    margin-top: 10px;
+	   }
+
+	 #emergent {
+	 	display:block;
+	 	margin: 0 auto;
+	 }
+
+ }
  
