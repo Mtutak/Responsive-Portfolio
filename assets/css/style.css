@@ -173,7 +173,6 @@ hr {
 .aboutcontent {
 	display: inline-block;
     float: left;
-    width: 300px;
     margin-left: 20px;
    }
 
@@ -302,24 +301,19 @@ a:hover, a:active {
 /*Responsive Design, Media Queries*/
 @media (max-width: 980px) {
   	.pagewrap {
-	width:100%;
-     max-width: 100%;
+     max-width: 85%;
      margin: 0 auto;
  	}
 
  	.mainsection {
- 		float:none;
- 		width:95%;
- 		max-width: 95%;
- 		margin:10px auto 10px auto;
+ 		width:60%;
+ 		margin:15px auto 15px auto;
  		overflow: hidden;
 
  	}
 	.sidebar {
-		float:none;
-		width:95%;
-		max-width: 95%;
-		margin:10px auto 10px auto;
+		width:35%;
+		margin:15px auto 15px auto;
 	}
  	
 
@@ -332,13 +326,19 @@ a:hover, a:active {
 	    margin-top: 10px;
 	    margin-right: 10px;
 	   }
+	#profilepic {
+		float:none;
+		width:90%;
+		display:block;
+		margin:10px 0px;
+	}
 
 	   /*Portfolio*/
 	 .pic_contain {
 	 	float:none;
 	 	display:inline-block;
-	 	width:45%;
-	 	margin:10px 10px;
+	 	width:90%;
+	 	margin:20px 15px;
 	 }
 
 	 .folio {
