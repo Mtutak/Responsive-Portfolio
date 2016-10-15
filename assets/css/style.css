@@ -70,7 +70,7 @@ footer, .push {
 }
 
 nav {
-	padding:32px;
+	padding:32px 0px;
 	clear:both;
 }
 
@@ -173,7 +173,6 @@ hr {
 .aboutcontent {
 	display: inline-block;
     float: left;
-    margin-left: 20px;
    }
 
 #profilepic {
@@ -275,28 +274,23 @@ input[type=text], input[type=email], textarea {
 }
 
 
-/* Hover Animation 
-h1:hover #logo:hover {
+/* Hover Animation */
+h1:hover, #logo:hover {
 	font-weight: bolder;
-	font-size: 30px;
+	color:orange;
 }
 
 a:hover, a:active {
 	font-weight: bolder;
 	color:orange;
-	font-size: 18px;
+	
 }
 
 #submit:hover, #submit:hover {
 	font-weight: bold;
 	background-color: #225b58;
-	color:orange;
 }
 
-#profilepic:hover {
-	outline: 5px solid #4aaaa5;
-  	
-} */
 
 /*Responsive Design, Media Queries*/
 @media (max-width: 980px) {
@@ -351,6 +345,10 @@ a:hover, a:active {
   }
 
  @media (max-width:768px) {
+	#logo {
+		padding-left: 20px;
+	}
+
  	.pagewrap {
 	width:100%;
      max-width: 100%;
